@@ -1,4 +1,6 @@
 basic.forever(function () {
+    basic.showArrow(ArrowNames.East)
+    basic.pause(100)
     basic.showIcon(IconNames.SmallDiamond)
     basic.pause(100)
     basic.showIcon(IconNames.Target)
@@ -20,5 +22,5 @@ basic.forever(function () {
         # . . . #
         . # # # .
         `)
-    basic.pause(200)
+    basic.pause(500)
 })
