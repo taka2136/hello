@@ -12,5 +12,13 @@ basic.forever(function () {
     basic.pause(100)
     basic.clearScreen()
     basic.pause(500)
-    basic.showNumber(0)
+    basic.showString("HELLO!")
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `)
+    basic.pause(200)
 })
